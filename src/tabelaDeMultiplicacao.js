@@ -11,7 +11,7 @@ function tabelaDeMultiplicacao(valor) {
 
         
 
-    }console.table(tabela)
+    } return console.table(tabela)
         
 }
 return tabelaDeMultiplicacao(16)
