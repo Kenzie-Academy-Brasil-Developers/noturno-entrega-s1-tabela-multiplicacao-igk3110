@@ -9,7 +9,9 @@ function tabelaDeMultiplicacao(valor) {
             tabela[index][subIndex] = index*subIndex
         }
 
-    }return(tabela)
+        
+
+    }console.table(tabela)
         
 }
-console.table(tabelaDeMultiplicacao(16))
+return tabelaDeMultiplicacao(16)
